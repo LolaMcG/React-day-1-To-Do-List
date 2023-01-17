@@ -13,7 +13,7 @@ function App() {
 
   //to display all of your tasks in a list, create a variable. The value of this variable is the result of using the 'map' method on your 'tasks'. This method takes in a variable, and for each variable (i.e. each item in our list) it will: return an HTML <li> item with the value of the taskName that exists for each item in the list.
 
-  //I don't understand what the key={task.id} is doing here
+  //'key' is a JSX word, telling React to add an ID for a new task as it is added to the list.
 
   //because the taskCompleted function takes in a variable, you have to put it into an anonymous function first, otherwise it'll just run when you load the page and you get stuck in the infinite loop.
   const tasksDisplayedInAListFormat = tasks.map ((task) => {
