@@ -16,3 +16,11 @@ li::before{
 button{
   float: right;
 }
+
+#add-task{
+  margin-right: 30px;
+}
+
+#saveButton{
+  float: right;
+}
